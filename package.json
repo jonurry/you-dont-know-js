@@ -1,0 +1,27 @@
+{
+	"name": "you-dont-know-js",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {},
+	"scripts": {
+		"test": "jest --watchAll"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-core": "^6.26.3",
+		"babel-jest": "^23.2.0",
+		"babel-preset-env": "^1.7.0",
+		"jest": "^23.3.0",
+		"jest-cli": "^23.3.0"
+	},
+	"homepage": "https://jonurry.github.io/you-dont-know-js",
+	"jest": {
+		"transform": {
+			"^.+\\.js$": "babel-jest",
+			"^.+\\.jsx$": "babel-jest"
+		}
+	},
+	"main": "index.js",
+	"author": "Jon Urry",
+	"license": "MIT"
+}
