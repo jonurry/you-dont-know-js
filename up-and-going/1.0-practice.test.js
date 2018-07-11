@@ -5,7 +5,7 @@
   
   DONE: After you've calculated your purchase amount, add in the tax, then print out the calculated purchase amount, properly formatted.
   
-  TODO: Finally, check the amount against your bank account balance to see if you can afford it or not.
+  DONE: Finally, check the amount against your bank account balance to see if you can afford it or not.
   
   DONE: You should set up some constants for the "tax rate," "phone price," "accessory price," and "spending threshold," as well as a variable for your "bank account balance.""
   
@@ -15,6 +15,8 @@
   You may prompt the user for their bank account balance, for example. 
   Have fun and be creative!
 */
+
+"use strict";
 
 import PhoneShop from "./1.0-practice.js";
 

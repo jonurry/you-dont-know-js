@@ -1,3 +1,5 @@
+"use strict";
+
 class PhoneShop {
 	constructor(taxRate = 0.0, phonePrice = 0.0, accessoryPrice = 0.0) {
 		this.taxRate = taxRate;
